@@ -1,0 +1,23 @@
+{
+  "name": "testcafe-testing",
+  "version": "1.0.0",
+  "description": "Automated testing with TestCafe",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TestaCae",
+    "Testing",
+    "Automation"
+  ],
+  "author": "Kellen Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.6.2",
+    "testcafe": "^1.18.6"
+  }
+}

@@ -1,0 +1,83 @@
+### TestCafe ###
+node -v
+npm -v
+
+
+*Sett
+npm init
+
+Creating JSON file in the Terminal:
+		After insert package name: (testcafe-testing)
+		version:(1.0.0)
+		description: Automated testing with TestCafe
+		entry point: (index.js)
+		test comamnd: 
+		git repository:
+		keywords: TestaCae, Testing, Automation
+		author: 
+		license: (ISC)
+		YES
+
+Dependences:
+		npm install testcafe
+		npm ins prettier
+
+Create Prettier file:
+		.prettierrc
+		
+		Into write:
+			{
+				"semi": false,
+				"singleQuote": true,
+				"useTabs": true,
+				"tabWidth": 2,
+				"bracketSpacing": true,
+				"arrowParens": "avoid",
+				"trailingComma": "es5"
+			}
+		 
+		
+		
+Install:
+		https://prettier.io/
+
+
+*******************
+TestCafe commands:
+*******************
+
+async function f() {
+	return 1;
+}
+
+let result = await promise; // wait until promise resolves (*)
+
+
+***
+
+fixtures `Authentication tests`
+    .page `URL`
+
+
+Example:
+
+fixture `MyFixture`;
+
+test('Test1', async t => {
+	/* Test 1 Code */
+});
+
+// Test Controllers are e.g: like test, beforeEach, abd afterEach
+
+***
+********************
+** How to execute:
+********************
+***
+	npx testcafe chrome tests/
+	npx testcafe chrome tests/testMetaScript.js --test-meta env=prod
+    or
+	testcafe chrome test/firstTest.js
+
+
+		
